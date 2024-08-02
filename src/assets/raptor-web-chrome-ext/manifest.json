@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "TeleRaptor Web extension",
+  "version": "1.0",
+  "description": "",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "declarativeNetRequestWithHostAccess",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
